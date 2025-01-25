@@ -353,7 +353,7 @@ body {
 }
 
 .progress-line.html span {
-    width: 90%;
+    width: 80%;
 }
 
 .progress-line.css span {
@@ -361,15 +361,15 @@ body {
 }
 
 .progress-line.python span {
-    width: 75%;
+    width: 80%;
 }
 
 .progress-line.java span {
-    width: 50%;
+    width: 80%;
 }
 
 .progress-line.cpls span {
-    width: 50%;
+    width: 80%;
 }
 
 .progress-line span::after {
@@ -386,7 +386,7 @@ body {
 }
 
 .progress-line.html span::after {
-    content: "90%";
+    content: "80%";
 }
 
 .progress-line.css span::after {
@@ -394,15 +394,15 @@ body {
 }
 
 .progress-line.python span::after {
-    content: "75%";
+    content: "80%";
 }
 
 .progress-line.java span::after {
-    content: "50%";
+    content: "80%";
 }
 
 .progress-line.cpls span::after {
-    content: "50%";
+    content: "80%";
 }
 
 .progress-line span::before {
@@ -543,8 +543,8 @@ body {
 
 .row img {
     width: 100%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 350px;
     border-radius: 15px;
     display: block;
     transition: transform 0.5s;
@@ -553,8 +553,8 @@ body {
 
 .layer {
     width: 100%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 350px;
     height: 0;
     opacity: 0;
     background: linear-gradient(rgba(255, 255, 255, 0.5), #0ef);
